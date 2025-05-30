@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="VOpmgVEXg-oSk0ZmS-H0">
-    <mxGraphModel dx="914" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,15 +21,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-1" value="br-vlan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="190" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="455" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-2" value="br-vlan.101" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="455" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-3" value="br-vlan.100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="455" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aShC4JNPMhtuTAqiujVa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-10" target="aShC4JNPMhtuTAqiujVa-1">
+        <mxCell id="aShC4JNPMhtuTAqiujVa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-10" target="aShC4JNPMhtuTAqiujVa-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-12" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aShC4JNPMhtuTAqiujVa-11">
@@ -38,9 +38,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-10" value="ip link add br-vlan type bridge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="100" width="220" height="30" as="geometry" />
+          <mxGeometry x="20" y="530" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aShC4JNPMhtuTAqiujVa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-13" target="aShC4JNPMhtuTAqiujVa-3">
+        <mxCell id="aShC4JNPMhtuTAqiujVa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.572;entryY=-0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-13" target="aShC4JNPMhtuTAqiujVa-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-18" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aShC4JNPMhtuTAqiujVa-15">
@@ -49,18 +49,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aShC4JNPMhtuTAqiujVa-13" value="ip link add link br-vlan name br-vlan.100 type vlan id 100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="160" width="220" height="30" as="geometry" />
+          <mxGeometry x="30" y="350" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aShC4JNPMhtuTAqiujVa-14" value="ip link add link br-vlan name br-vlan.101 type vlan id 101" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="150" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aShC4JNPMhtuTAqiujVa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-14" target="aShC4JNPMhtuTAqiujVa-2">
+        <mxCell id="aShC4JNPMhtuTAqiujVa-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-14" target="aShC4JNPMhtuTAqiujVa-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aShC4JNPMhtuTAqiujVa-17" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aShC4JNPMhtuTAqiujVa-16">
-          <mxGeometry x="-0.2902" relative="1" as="geometry">
+        <mxCell id="aShC4JNPMhtuTAqiujVa-34" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aShC4JNPMhtuTAqiujVa-33">
+          <mxGeometry x="0.0139" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-14" value="ip link add link br-vlan name br-vlan.101 type vlan id 101" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="470" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-20" value="ns-v2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="600" width="90" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-21" value="ns-v3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-22" value="ns-v4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="130" width="100" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-26" target="aShC4JNPMhtuTAqiujVa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-26" value="v1-br" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="565" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-30" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="600" width="90" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-19" value="ns-v1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aShC4JNPMhtuTAqiujVa-30">
+          <mxGeometry width="90" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-25" value="v1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="aShC4JNPMhtuTAqiujVa-30">
+          <mxGeometry x="15" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aShC4JNPMhtuTAqiujVa-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-32" value="v2-br" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="565" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-36" value="v1-br" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="aShC4JNPMhtuTAqiujVa-37" value="v2-br" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
